@@ -15,7 +15,7 @@ mylist = [] #空陣列
 myexcel = []
 driverPath = 'C:\\Users\\user\\chromedriver.exe'
 browser = webdriver.Chrome(driverPath)
-url = 'https://rtapi.ruten.com.tw/api/search/v3/index.php/core/prod?q=%E8%BE%B2%E6%9E%97&type=direct&sort=rnk%2Fdc&offset=1&limit=80&2666611'
+url = 'https://rtapi.ruten.com.tw/api/search/v3/index.php/core/prod?q=%E8%BE%B2%E6%9E%97&type=direct&sort=rnk%2Fdc&offset=1&limit=80'
 headers={'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36'}
 
 res = requests.get(url,headers=headers)
